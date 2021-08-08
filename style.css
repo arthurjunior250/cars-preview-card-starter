@@ -97,6 +97,10 @@ h1{
 @media (max-width: 500px) {
     .container{
       flex-direction: column;
+      width: 80%;
+    }
+    p{
+        font-size: 25px;
     }
     .card-1{
         border-radius: 2% 2% 0 0;
