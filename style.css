@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+ background-color:hsl(0, 0%, 95%);
+ /* box-shadow: -1px -1px 10px 0px #000 ;
+ margin:1px;; */
+}
+.container{
+ display: flex;
+ flex-direction: row;
+ width: 50%;
+ margin :10%  auto;
+}
+img{
+margin-bottom: 20px;
+width: 30%;
+
+
+}
+p{
+    line-height: 1.5em;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+h1{
+  color:hsl(0, 0%, 95%);
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family:Big Shoulders Display;
+
+}
+.card-1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 2% 0 0 2%;
+    padding: 30px;
+ 
+}
+.card-2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+ 
+}
+.card-3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 2% 2% 0;
+    padding: 30px;
+ 
+}
+.act-1{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 2em;
+    padding: 0.6em;
+    width: 50%;
+    color:hsl(31, 77%, 52%) ;
+}
+.act-2{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 2em;
+    padding: 0.6em;
+    width: 50%;
+    color: hsl(184, 100%, 22%);
+}
+.act-3{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 2em;
+    padding: 0.6em;
+    width: 50%;
+    color: hsl(179, 100%, 13%);
+}
+.act-1:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 2em;
+    
+}
+.act-2:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 2em;
+}
+.act-3:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 2em;
+}
+@media (max-width: 500px) {
+    .container{
+      flex-direction: column;
+    }
+    .card-1{
+        border-radius: 2% 2% 0 0;
+    }
+    .card-3{
+
+        border-radius: 0 0 2% 2%;
+     
+    }
+  }
