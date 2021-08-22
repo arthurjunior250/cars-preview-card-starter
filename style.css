@@ -5,8 +5,6 @@
   }
 body{
  background-color:hsl(0, 0%, 95%);
- /* box-shadow: -1px -1px 10px 0px #000 ;
- margin:1px;; */
 }
 .container{
  display: flex;
@@ -100,7 +98,7 @@ h1{
       width: 80%;
     }
     p{
-        font-size: 15px;
+        font-size: 18px;
     }
     .card-1{
         border-radius: 2% 2% 0 0;
